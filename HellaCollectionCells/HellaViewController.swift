@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HellaCollectionViewController: UIViewController {
+class HellaViewController: UIViewController {
 
     override func viewDidLoad() {
     // Do any additional setup after loading the view, typically from a nib.
