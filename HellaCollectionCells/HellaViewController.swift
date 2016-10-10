@@ -23,7 +23,8 @@ class HellaViewController: UIViewController, UICollectionViewDelegate, UICollect
     @IBOutlet weak var hellaCollectionView: UICollectionView!
     
     override func viewDidLoad() {
-    // Do any additional setup after loading the view, typically from a nib.
+        hellaCollectionView.delegate = self
+        hellaCollectionView.dataSource = self
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -39,7 +40,7 @@ class HellaViewController: UIViewController, UICollectionViewDelegate, UICollect
         if fibonacciSequence.contains(indexPath.row) {
             cell.backgroundColor = UIColor.purple
         }
-        
+        print(indexPath.row)
         return cell
     }
     
