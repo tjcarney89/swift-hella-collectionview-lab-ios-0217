@@ -44,6 +44,15 @@ class HellaViewController: UIViewController, UICollectionViewDelegate, UICollect
         return cell
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier != "detailSegue" { return }
+        let cell = sender as! UICollectionViewCell
+        let dest = segue.destination as! HellaDetailViewController
+        guard let index = hellaCollectionView.indexPath(for: cell)?.row else { return }
+        dest.color = cell.backgroundColor
+        dest.number = index
+    }
+    
     func fibonacci(_ i: Int) -> Int {
         if i <= 2 {
             return 1

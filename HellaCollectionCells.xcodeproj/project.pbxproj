@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B63CE681DABDAF70075980F /* HellaDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B63CE671DABDAF70075980F /* HellaDetailViewController.swift */; };
 		1BCF187B1DA6D7220045E980 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCF187A1DA6D7220045E980 /* AppDelegate.swift */; };
 		1BCF187D1DA6D7220045E980 /* HellaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCF187C1DA6D7220045E980 /* HellaViewController.swift */; };
 		1BCF18801DA6D7220045E980 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BCF187E1DA6D7220045E980 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B63CE671DABDAF70075980F /* HellaDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HellaDetailViewController.swift; sourceTree = "<group>"; };
 		1BCF18771DA6D7220045E980 /* HellaCollectionCells.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HellaCollectionCells.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BCF187A1DA6D7220045E980 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1BCF187C1DA6D7220045E980 /* HellaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HellaViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				1BCF187A1DA6D7220045E980 /* AppDelegate.swift */,
 				1BCF187C1DA6D7220045E980 /* HellaViewController.swift */,
+				1B63CE671DABDAF70075980F /* HellaDetailViewController.swift */,
 				1BCF187E1DA6D7220045E980 /* Main.storyboard */,
 				1BCF18811DA6D7220045E980 /* Assets.xcassets */,
 				1BCF18831DA6D7220045E980 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			files = (
 				1BCF187D1DA6D7220045E980 /* HellaViewController.swift in Sources */,
 				1BCF187B1DA6D7220045E980 /* AppDelegate.swift in Sources */,
+				1B63CE681DABDAF70075980F /* HellaDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
